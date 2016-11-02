@@ -82,7 +82,7 @@
     echo "$a+$b" #输出为1+2,不会做加法运算
     ```
 
-9. 数组()
+10. 数组()
     ```
     names=("Chen Xi" "Wayne")
     for name in "${names[@]}"; do
@@ -95,11 +95,11 @@
     echo "All names: ${names[@]}"
     ```
 
-10. 局部变量定义, local
+11. 局部变量定义, local
 
-11. 只读变量定义, readonly const_var 或 declare -r CONST=100
+12. 只读变量定义, readonly const_var 或 declare -r CONST=100
 
-12. "函数返回输出" vs "exit code"
+13. "函数返回输出" vs "exit code"
     ```
     #得到函数的exit code
     echo "hi you" 
@@ -121,24 +121,25 @@
     echo '$() is not necessary'
     ```
 
-13. 命令行option， long-option vs short-option
-```
-#getpots只支持short-option,如果需要long-option,可以使用GNU c写的外部程序getopt , (没有s)
-while getopts 'hb:' OPT; do
-   case $OPT in
-       h)
-         usage
-         ;;
-       b)
-         bak=${OPTARG}
-         ;;
-       ?)
-         usage
-   esac
-done
-shift $(($OPTIND - 1))
-```
+14. 命令行option， long-option vs short-option
+    ```
+    #getpots只支持short-option,如果需要long-option,可以使用GNU c写的外部程序getopt , (没有s)
+    while getopts 'hb:' OPT; do
+       case $OPT in
+           h)
+             usage
+             ;;
+           b)
+             bak=${OPTARG}
+             ;;
+           ?)
+             usage
+       esac
+    done
+    shift $(($OPTIND - 1))
+    ```
 
-14. shell vs python script ?
+15. shell vs python script 
+
     > 个人建议简单短小的脚本可以使用shell，因为shell的可读性可维护性都不如python. 
     > 如果脚本比较大，或者比如需要操作高级的数据类型比如xml/json/sql等，建议使用python
