@@ -22,7 +22,7 @@
     function notRecommendedFunctionName()
     function not-recommend-func()
     ```
-3. soft quote vs har quote（“ vs ')
+3. soft quote vs hard quote（“ vs ')
 
 4. 变量引用推荐使用${var}, 不推荐$var
 
