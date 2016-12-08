@@ -134,7 +134,7 @@ ssh-copy-id -i $HOME/.ssh/id_rsa.pub root@remote_server
  分屏神器，不用多说，最流行的tmux的配置照搬tmux的大神的配置即可(忘记大神的姓名了),或者照搬我的 [我个人的.bashrc](https://github.com/westwin/dotfiles)
 
 - 演示
-- [tmux in nested tmux](http://192.168.33.218/display/~xifeng/Tmux+in+nested+Tmux)
+- [tmux in nested tmux](https://github.com/westwin/seminar/blob/master/linux/tips/tmux_in_nested_tmux.md)
 
 ---
 
