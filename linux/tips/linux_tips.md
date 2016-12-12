@@ -147,7 +147,7 @@ ssh-copy-id -i $HOME/.ssh/id_rsa.pub root@remote_server
 ---
 
 ## <a name="zsh"></a> zsh/oh-my-zsh/xx-completion
-最大的必杀及来了，zsh， [oh-my-zsh社区](http://ohmyz.sh/)
+最大的必杀技来了，zsh， [oh-my-zsh社区](http://ohmyz.sh/)
 
 - 和bash一比，bash简直弱暴了...
 - oh-my-zsh社区中各种各样的插件
