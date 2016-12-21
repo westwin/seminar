@@ -11,8 +11,8 @@ refer to [startup order](https://docs.docker.com/compose/startup-order/)
   - readiness
 
 started是指已经启动了，但是呢, app还不能正常对外提供服务.  
-liveness往往是说app活着呢,(比如监听的端口是活着的), liveness并不意味着app可以正常工作 
-readiness是指app真的已经对外提供服务了.  
+liveness往往是说app活着呢,(比如监听的端口是活着的), liveness并不意味着app可以正常工作   
+readiness是指app真的已经对外提供服务了.   
 
 
 ---
